@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <pattern id="m" width="64" height="64" patternUnits="userSpaceOnUse" viewBox="0 0 56 56">
+      <path d="M28 15 L41 28 L28 41 L15 28 Z M18.8 18.8 H37.2 V37.2 H18.8 Z M28 23.5 L32.5 28 L28 32.5 L23.5 28 Z M0 -5 L5 0 L0 5 L-5 0 Z M56 -5 L61 0 L56 5 L51 0 Z M0 51 L5 56 L0 61 L-5 56 Z M56 51 L61 56 L56 61 L51 56 Z M5 0 L9.5 4.5 L14 0 M42 0 L46.5 4.5 L51 0 M5 56 L9.5 51.5 L14 56 M42 56 L46.5 51.5 L51 56" fill="none" stroke="#FBF3E2" stroke-width="1.6"/>
+    </pattern>
+    <radialGradient id="g" cx="0.7" cy="0.25" r="0.8">
+      <stop offset="0" stop-color="#2B4A80"/><stop offset="1" stop-color="#1F3864"/>
+    </radialGradient>
+    <clipPath id="c"><rect width="512" height="512" rx="112"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="512" height="512" fill="url(#g)"/>
+    <rect width="512" height="512" fill="url(#m)" opacity="0.09"/>
+  </g>
+  <g transform="translate(256 256)">
+    <path d="M0.000 -168.000 L48.861 -117.961 L118.794 -118.794 L117.961 -48.861 L168.000 0.000 L117.961 48.861 L118.794 118.794 L48.861 117.961 L0.000 168.000 L-48.861 117.961 L-118.794 118.794 L-117.961 48.861 L-168.000 0.000 L-117.961 -48.861 L-118.794 -118.794 L-48.861 -117.961 Z" fill="#C58B2A"/>
+    <path d="M0.000 -134.400 L39.089 -94.369 L95.035 -95.035 L94.369 -39.089 L134.400 0.000 L94.369 39.089 L95.035 95.035 L39.089 94.369 L0.000 134.400 L-39.089 94.369 L-95.035 95.035 L-94.369 39.089 L-134.400 0.000 L-94.369 -39.089 L-95.035 -95.035 L-39.089 -94.369 Z" fill="none" stroke="#1F3864" stroke-opacity="0.25" stroke-width="6"/>
+    <path d="M-38 -58 L66 0 L-38 58 Z" fill="#FBF3E2" stroke="#FBF3E2" stroke-width="18" stroke-linejoin="round"/>
+  </g>
+</svg>
